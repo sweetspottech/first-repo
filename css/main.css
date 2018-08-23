@@ -1,0 +1,147 @@
+/* base styles */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+#menu #reviews #contact {
+  height: 200px;
+}
+
+/* grid */
+
+.full-width {
+  width: 1200px;
+  margin: 20px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 399px;
+  float: left;
+  border-top: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+
+/* header */
+
+header h1 {
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  color: #77a466;
+  padding: 46px 0;
+}
+
+nav ul {
+  margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* about */
+
+#about .full-width img {
+  width: 1200px;
+  border-top: 1px solid #77a466;
+  border-bottom: 1px solid #77a466;
+  margin-bottom: 20px;
+}
+
+#about .full-width {
+  padding-left: 10px;
+}
+
+#about h3 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* notices */
+
+#notices h5 {
+  text-transform: uppercase;
+  padding-left: 10px;
+  }
+
+#notices ul li {
+  list-style: none;
+  color: #77a466;
+  line-height: 40px;
+  text-indent: -30px;
+}
+
+#notices #menu {
+  padding-bottom: 40px;
+  border-right: 1px solid #dedbdc
+  }
+
+#notices #reviews {
+  padding-bottom: 35px;
+  border-right: 1px solid #dedbdc
+}
+
+#notices #reviews p {
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+#notices #contact {
+  padding-bottom: 98px;
+}
+
+#notices #contact h5 {
+  padding-left: 50px;
+}
+
+#notices #contact p {
+  padding-left: 50px;
+  line-height: 10px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 1200px;
+  clear: both;
+  padding: 20px;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'Allura', cursive;
+  text-transform: lowercase;
+  font-size: 30px;
+}
